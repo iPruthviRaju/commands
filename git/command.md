@@ -22,3 +22,8 @@ Revert back to current commit.
 
 Undo last commit.
 - git reset HEAD~
+
+Push all changes to repo:
+- git add .
+- git commit -m "First implementation on new project"
+- git push origin feature/v1
