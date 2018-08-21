@@ -10,6 +10,12 @@ Push an existing repository from the command line
 - git remote add origin https://github.com/iPruthviRaju/commands.git
 - git push -u origin master
 
+Create branch from master.
+- $ git checkout master
+- $ git pull
+- $ git checkout -b new-branch1
+- $ git push origin new-branch1
+
 Merge master to feature/v1 branch
 - git checkout feature/v1
 - git merge master
