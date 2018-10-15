@@ -33,3 +33,7 @@ Push all changes to repo:
 - git add .
 - git commit -m "First implementation on new project"
 - git push origin feature/v1
+
+Pull hard from remote branch / Reset local repository branch to be just like remote repository HEAD
+- git fetch origin
+- git reset --hard origin/master
