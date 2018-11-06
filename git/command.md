@@ -11,10 +11,10 @@ Push an existing repository from the command line
 - git push -u origin master
 
 Create branch from master.
-- $ git checkout master
-- $ git pull
-- $ git checkout -b new-branch1
-- $ git push origin new-branch1
+- git checkout master
+- git pull
+- git checkout -b new-branch1
+- git push --set-upstream origin new-branch1
 
 Merge master to feature/v1 branch
 - git checkout feature/v1
