@@ -37,3 +37,9 @@ Push all changes to repo:
 Pull hard from remote branch / Reset local repository branch to be just like remote repository HEAD
 - git fetch origin
 - git reset --hard origin/master
+
+Rebase
+- git pull origin master
+- git checkout feature/v1
+- git rebase --onto master
+- git push -f origin feature/v1
